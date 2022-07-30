@@ -13,8 +13,12 @@ body {
 h1 {
     text-transform: uppercase;
 }
-
-
+legend {
+    text-decoration: none;
+}
+fieldset {
+    border: none;
+}
 
 
 
