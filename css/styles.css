@@ -1,6 +1,7 @@
 /* Mobile first styles */
 * {
     box-sizing: border-box;
+    font-family: 'Lora', serif;
 }
 body {
     margin: 0;
