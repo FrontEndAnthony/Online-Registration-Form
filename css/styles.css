@@ -51,6 +51,30 @@ legend {
     padding: 15px 0 18px;
     font-size: 18px;
 }
+.info-box {
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    padding: ;
+    font-size: 15px;
+    padding-bottom: 7px;
+    color: gray;
+}
+.input-box {
+
+}
+.state-box {
+
+}
+.zip-box {
+
+}
+.input-box, .state-box, .zip-box {
+    border: none;
+    height: 50px;
+    background-color: #eff0f1;
+}
 
 
 
@@ -59,13 +83,9 @@ legend {
 
 
 
-
-
-
-
-
-
-
+.button-box {
+    background-color: #4ebbb5;
+}
 
 /* media query for 768px devices */
 @media screen and (min-height: 768px) {
