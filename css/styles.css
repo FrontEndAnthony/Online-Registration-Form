@@ -31,14 +31,39 @@ h2 {
     color: grey;
 }
 .thick-hr {
+    border: solid black 2px;
+    margin: 0 4%;
+}
+.slim-hr {
     border: solid black 1px;
+    margin: 2px 4%;
 }
 fieldset {
     border: none;
 }
+.contact-section {
+
+}
 legend {
     text-decoration: none;
 }
+.legend {
+    padding: 15px 0 18px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
