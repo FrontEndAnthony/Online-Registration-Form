@@ -6,11 +6,13 @@
 body {
     margin: 0;
     padding: 0;
+    vertical-align: center;
 }
 #header {
     padding: 8px 0;
     text-align: center;
     font-size: 9px;
+    font-weight: bold;
     background: rgb(60, 60, 60);
     color: white;
 }
@@ -50,6 +52,7 @@ fieldset {
 .legend {
     padding: 15px 0 18px;
     font-size: 18px;
+    font-weight: bold;
     text-decoration: none;
 }
 .legend-newsletter {
@@ -71,6 +74,7 @@ input[type="text"]:focus, input[type="email"]:focus {
 input[placeholder="Required"] {
     text-align: right;
     padding: 0 15px;
+    font-style: italic;
     color: rgb(169, 169, 169);
 }
 input[type="tel"], input[id="street-address"], input[id="city"], input[id="state"], input[id="zip"] {
@@ -95,14 +99,57 @@ option[value=""]:focus {
     border-radius: 6px;
     background-color: #eff0f1;
 }
-
-
-
-
-
-
-
-
+.newsletter-text {
+    font-size: 15px;
+    padding-left: 6px;
+}
+.newsletter-box {
+    font-size: 15px;
+    color: grey;
+    padding-left: 5px;
+}
+.check-css {
+    padding: 10px 0;
+}
+.checkbox-text {
+    padding-left: 5px;
+}
+.radio-box {
+    font-size: 15px;
+    color: grey;
+    padding-left: 5px;
+}
+.radio-html {
+    padding-bottom: 12px;
+}
+.radio-text {
+    padding-left: 5px;
+}
+.topics {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.topic-text {
+    font-size: 15px;
+    padding-left: 6px;
+    color: grey;
+    height: 34px;
+}
+.textarea-box {
+    width: 288px;
+    height: 100px;
+    resize: none;
+    border-radius: 6px;
+    border: none;
+    background-color: #eff0f1;
+}
+textarea[id="topics"] {
+    padding: 5px 0 0 10px;
+}
+.button {
+    padding-top: 8px;
+}
 .button-box {
     height: 50px;
     width: 288px;
@@ -113,6 +160,15 @@ option[value=""]:focus {
     color: white;
     background-color: #4ebbb5;
 }
+footer {
+    padding-top: 13px;
+    padding-bottom: 150px;
+    font-size: 13px;
+    font-style: italic;
+    text-align: center;
+    color: grey;
+}
+
 
 /* media query for 768px devices */
 @media screen and (min-height: 768px) {

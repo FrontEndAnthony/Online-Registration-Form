@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
         <title>Online Registration Form</title>
     </head>
@@ -101,31 +101,43 @@
                 <hr class="slim-hr">
             <fieldset>
                 <div class="newsletter-section">
-                    <legend class="legend-newsletter">Newsletter</legend>
+                    <legend class="legend-newsletter"><strong>Newsletter</strong></legend>
 
                         <div class="check">
-                            <p>Select the newsletters you would like to receive</p>
-                            
-                            <input type="checkbox" id="html_news" name="news" value="html_news">
-                            <label for="html_news">HTML News</label><br>
-                            <input type="checkbox" id="css_news" name="news" value="css_news">
-                            <label for="css_news">CSS News</label><br>
-                            <input type="checkbox" id="javascript_news" name="news" value="javascript_news">
-                            <label for="javascript_news">Javascript News</label><br>
+                            <p class="newsletter-text">Select the newsletters you would like to receive</p>
+                                <div class="newsletter-box">
+                                    <div class="check-div check-html">
+                                        <input type="checkbox" id="html_news" name="news" value="html_news" checked>
+                                        <label class="checkbox-text" for="html_news">HTML News</label><br>
+                                    </div>
+                                    <div class="check-div check-css">
+                                        <input type="checkbox" id="css_news" name="news" value="css_news">
+                                        <label class="checkbox-text" for="css_news">CSS News</label><br>
+                                    </div>
+                                    <div check="check-div check-javascript">
+                                        <input type="checkbox" id="javascript_news" name="news" value="javascript_news">
+                                        <label class="checkbox-text" for="javascript_news">Javascript News</label><br>
+                                    </div>
+                                </div>
                         </div>
 
-                        <div class="rad">   
-                            <p>Newsletter format</p>
-
-                            <input type="radio" id="html" name="format" value="html">
-                            <label for="html">HTML</label><br>
-                            <input type="radio" id="plain_text" name="format" value="plain_text">
-                            <label for="plain_text">Plain text</label><br><br>
+                        <div class="radio-section">   
+                            <p class="newsletter-text">Newsletter format</p>
+                                <div class="radio-box">
+                                    <div class="radio-html">
+                                        <input type="radio" id="html" name="format" value="html" checked>
+                                        <label class="radio-text" for="html">HTML</label><br>
+                                    </div>
+                                    <div class="radio-plain">
+                                        <input type="radio" id="plain_text" name="format" value="plain_text">
+                                        <label class="radio-text" for="plain_text">Plain text</label><br><br>
+                                    </div>
+                                </div>
                         </div>
 
                         <div class="topics">
-                            <label for="topics">Other topics you'd like to hear about</label>
-                            <textarea id="topics" name="topics_box"></textarea><br>
+                            <label class="topic-text" for="topics">Other topics you'd like to hear about</label>
+                            <textarea class="textarea-box" id="topics" name="topics_box"></textarea><br>
                         </div>
 
                         <div class="button">
