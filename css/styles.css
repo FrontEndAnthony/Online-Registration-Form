@@ -61,6 +61,17 @@ legend {
     padding-bottom: 7px;
     color: gray;
 }
+input[type="text"]:focus, input[type="email"]:focus {
+    text-align: left;
+}
+input[placeholder="Required"] {
+    text-align: right;
+    padding: 0 15px;
+    font-style: italic;
+}
+input[type="tel"] {
+    
+}
 .input-box {
 
 }
