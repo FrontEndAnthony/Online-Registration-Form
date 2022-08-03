@@ -6,7 +6,6 @@
 body {
     margin: 0;
     padding: 0;
-    vertical-align: center;
 }
 #header {
     padding: 8px 0;
@@ -46,9 +45,6 @@ p {
 fieldset {
     border: none;
 }
-.contact-section {
-
-}
 .legend {
     padding: 15px 0 18px;
     font-size: 18px;
@@ -79,9 +75,6 @@ input[placeholder="Required"] {
 }
 input[type="tel"], input[id="street-address"], input[id="city"], input[id="state"], input[id="zip"] {
     padding-left: 15px;
-}
-.input-box {
-
 }
 .state-box {
     padding-left: 10px;
@@ -172,6 +165,65 @@ footer {
 
 /* media query for 768px devices */
 @media screen and (min-height: 768px) {
+    body {
+       width: 100%;
+    }
+    #header {
+        font-size: 6px;
+    }
+    .body-page {
+        width: 60%;
+        margin: auto;
+    }
+    section {
+        padding: 21px 0 27px 0;
+        margin: 0;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    .section-text {
+        font-size: 9px;
+    }
+    .section-text {
+        margin: 0;
+    }
+    .legend {
+        padding: 20px 0 18px 4px;
+        font-size: 14px;
+    }
+    .info-box {
+        display: flex;
+        padding-left: 4px;
+    }
+    .label {
+        font-size: 11px;
+        align-self: center;
+        width: 25%;
+    }
+    .input-box, .state-box, .zip-box {
+        width: 70%;
+    }
+    #phone {
+        margin: 0;
+    }
+    .info-flex {
+        display: flex;
+        padding-bottom: 4px;
+    }
+    .zip-box {
+        width: 25%;
+    }
+    .legend-newsletter {
+        padding: 20px 0 18px 4px;
+        font-size: 14px;
+    }
+
+
+
+
+
+
 
 }
 
