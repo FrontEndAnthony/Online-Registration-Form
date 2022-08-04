@@ -1,5 +1,4 @@
 /* Mobile first styles */
-@media screen and (min-height: 320px) {
 * {
     box-sizing: border-box;
     font-family: 'Lora', serif;
@@ -43,11 +42,11 @@ p {
     border: solid black 1px;
     margin: 2px 4%;
 }
+form {
+    background-color: lightcyan;
+}
 fieldset {
     border: none;
-}
-.contact {
-    background-color: rgb(154, 213, 250);
 }
 .legend {
     padding: 15px 0 18px;
@@ -71,7 +70,7 @@ fieldset {
 input[type="text"]:focus, input[type="email"]:focus {
     text-align: left;
 }
-[type="text"]:focus, [type="email"]:focus, [type="tel"]:focus, [type="city"]:focus, select:focus, [type="zip_code"]:focus, [id="topics"]:focus {
+[type="text"]:focus, [type="email"]:focus, [type="tel"]:focus, [type="city"]:focus, select:focus, [type="zip-code"]:focus, [id="topics"]:focus {
     background-color: lightgoldenrodyellow;
     transition: color 0.5s ease;
 }
@@ -100,9 +99,6 @@ option[value=""]:focus {
     border-radius: 6px;
     background-color: #eff0f1;
     outline-color: darkblue;
-}
-.newsletter {
-    background-color: lightcyan;
 }
 .newsletter-text {
     font-size: 15px;
@@ -176,11 +172,8 @@ footer {
     color: grey;
 }
 
-
-}
-
 /* media query for 768px devices */
-@media screen and (min-height: 768px) {
+@media screen and (min-width: 768px) {
     body {
        width: 100%;
     }
@@ -246,10 +239,6 @@ footer {
     .textarea-box, .button-box {
         width: 100%;
     }
-
-
-
-
 }
 
 

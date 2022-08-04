@@ -21,8 +21,7 @@
                 <hr class="thick-hr">
                 <hr class="slim-hr">
             <form>
-                <fieldset class="contact">
-                    <div class="contact-section">
+                <fieldset class="contact contact-section">
                         <legend class="legend">Contact Information</legend>
                             <div class="info-box">
                                 <div class="info-flex">
@@ -43,7 +42,7 @@
                                 </div>
                                 <div class="info-flex">
                                     <label class="label" for="city">City</label>
-                                    <input class="input-box" type="city" id="city" name="city"><br>
+                                    <input class="input-box" type="text" id="city" name="city"><br>
                                 </div>
                                 <div class="info-flex">
                                     <label class="label" for="state">State</label>
@@ -108,16 +107,13 @@
                                 </div>
                                 <div class="info-flex">
                                     <label class="label" for="zip">Zip Code</label>
-                                    <input class="zip-box" type="zip_code" id="zip" name="zip_code"><br>
+                                    <input class="zip-box" type="text" id="zip" name="zip_code"><br>
                                 </div>
                             </div>
-                    </div>
                 </fieldset>
                     <hr class="slim-hr">
                 <fieldset class="newsletter">
-                    <div class="newsletter-section">
                         <legend class="legend-newsletter"><strong>Newsletter</strong></legend>
-
                             <div class="check">
                                 <p class="newsletter-text">Select the newsletters you would like to receive</p>
                                     <div class="newsletter-box">
@@ -129,13 +125,12 @@
                                             <input type="checkbox" id="css_news" name="news" value="css_news">
                                             <label class="checkbox-text" for="css_news">CSS News</label><br>
                                         </div>
-                                        <div check="check-div check-javascript">
+                                        <div class="check-div check-javascript">
                                             <input type="checkbox" id="javascript_news" name="news" value="javascript_news">
                                             <label class="checkbox-text" for="javascript_news">Javascript News</label><br>
                                         </div>
                                     </div>
                             </div>
-
                             <div class="radio-section">   
                                 <p class="newsletter-text">Newsletter format</p>
                                     <div class="radio-box">
@@ -149,16 +144,13 @@
                                         </div>
                                     </div>
                             </div>
-
                             <div class="topics">
                                 <label class="topic-text" for="topics">Other topics you'd like to hear about</label>
                                 <textarea class="textarea-box" id="topics" name="topics_box" placeholder="Topics..."></textarea><br>
                             </div>
-
                             <div class="button">
-                                <button class="button-box"type="submit">Sign up</button>
-                            </div>
-                    </div>
+                                <button class="button-box" type="submit">Sign up</button>
+                            </div>                   
                 </fieldset>
             </form>
             <footer>
