@@ -58,6 +58,11 @@ fieldset {
     padding: 15px 0 6px;
     font-size: 18px;
 }
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
 .info-flex {
     display: flex;
     flex-direction: column;
@@ -204,6 +209,7 @@ footer {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        gap: 2px;
         padding-left: 4px;
     }
     .info-flex {
@@ -233,6 +239,9 @@ footer {
     }
     .newsletter-text {
         font-size: 13px;
+    }
+    .topics {
+        margin-top: 20px;
     }
     .topic-text {
         font-size: 14px;
