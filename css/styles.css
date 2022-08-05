@@ -71,8 +71,9 @@ input[type="text"]:focus, input[type="email"]:focus {
     text-align: left;
 }
 [type="text"]:focus, [type="email"]:focus, [type="tel"]:focus, [type="city"]:focus, select:focus, [type="zip-code"]:focus, [id="topics"]:focus {
-    background-color: lightgoldenrodyellow;
-    transition: color 0.5s ease;
+    background: rgb(255, 219, 193);
+    color: #fff;
+    transition: .6s ease-out;
 }
 input[placeholder="Required"] {
     text-align: right;
@@ -149,7 +150,7 @@ textarea[id="topics"] {
     padding: 5px 0 0 10px;
     outline-color: darkblue;
 }
-.button:focus {
+.button {
     padding-top: 8px;
 }
 .button-box {
@@ -209,7 +210,7 @@ footer {
         flex-direction: unset;
     }
     .label {
-        font-size: 11px;
+        font-size: 70%;
         align-self: center;
         width: 25%;
     }
@@ -240,11 +241,3 @@ footer {
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
